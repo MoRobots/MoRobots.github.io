@@ -1,0 +1,14 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    text-align:center;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+}
