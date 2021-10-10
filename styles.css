@@ -1,22 +1,44 @@
+.light-theme {
+    --bg: aliceblue;
+    --fontColor: black;
+    --btnFontColor: aliceblue;
+    --btnBg: rgb(37, 37, 37);
+}
+
+.dark-theme {
+    --bg: rgb(37, 37, 37);
+    --fontColor: aliceblue;
+    --btnFontColor: black;
+    --btnBg: aliceblue;
+}
+
+.center-text {
+    text-align:center;
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus {
+    outline-style: none;
+}
+
+* {
+    font-family:'Courier New', Courier, monospace;
+    color: var(--fontColor);
+}
+
 body {
-    background-color: aliceblue;
-}
-
-h1 {
-    font-family:'Courier New', Courier, monospace;
-    color: black;
-    text-align:center;
-}
-
-h3 {
-    font-family:'Courier New', Courier, monospace;
-    color: black;
-    text-align:center;
-}
-
-p {
-    font-family:'Courier New', Courier, monospace;
-    color: black;
+    background: var(--bg);
 }
 
 .center {
@@ -24,4 +46,4 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
