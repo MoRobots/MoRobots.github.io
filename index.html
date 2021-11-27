@@ -11,16 +11,50 @@
     <body class=light-theme>
         <h1 class=center-text>Ben's Cool Webpage</h1>
 
-        <h3 class=center-text> 
+        <div class="navbar">
+
+            <button class="navbtn">
+                <a href="index.html">Home</a>
+            </button>
+            
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <a href="projects.html">
+                        Projects
+                    </a>
+                </button>
+                <div class="dropdown-content">
+                    <a href="projects.html">Project 1</a>
+                    <a href="projects.html">Project 2</a>
+                    <a href="projects.html">Project 3</a>
+                </div>
+            </div>
+
+            
+            <button class="navbtn">
+                <a href="about.html">About</a>
+            </button>
+        </div>
+
+        <!-- <h3 class=center-text> 
             <a href="index.html">Home</a>
             <a href="projects.html">Projects</a>
             <a href="about.html">About</a>
-        </h3>
+        </h3> -->
         
         <p> Welcome! I will be documenting my personal robotics projects here.</p>
         
         <div>
             <button class="btn">Dark</button>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
         </div>
 
         <script src="app.js"></script>
